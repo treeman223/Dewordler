@@ -1,3 +1,3 @@
 # dewordler
-Decode the game
+Decode the game now
 <b>hi</b>
