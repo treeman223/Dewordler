@@ -12,6 +12,29 @@
     <main>
         <h1>Welcome to My Website</h1>  
     </main>
-	<script src="index.js"></script>
-  </body>
+	
+  <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyC08Dybv-nlVwtlv3CPrhRGHfGpr6aJa3U",
+    authDomain: "top-script-373520.firebaseapp.com",
+    projectId: "top-script-373520",
+    storageBucket: "top-script-373520.appspot.com",
+    messagingSenderId: "172019367834",
+    appId: "1:172019367834:web:7675f4f89e7eaadd9c8423",
+    measurementId: "G-FYLWBJ6BC0"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+</body>
 </html>
